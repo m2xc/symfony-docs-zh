@@ -1,7 +1,7 @@
 .. index::
    single: Assetic; Introduction
 
-How to Use Assetic for Asset Management
+如何使用Assetic来管理资源
 =======================================
 
 Assetic结合了两大思路: :ref:`assets<cookbook-assetic-assets>` 和
