@@ -4,15 +4,12 @@
 How to Use Assetic for Asset Management
 =======================================
 
-Assetic combines two major ideas: :ref:`assets<cookbook-assetic-assets>` and
-:ref:`filters<cookbook-assetic-filters>`. The assets are files such as CSS,
-JavaScript and image files. The filters are things that can be applied to
-these files before they are served to the browser. This allows a separation
-between the asset files stored in the application and the files actually presented
-to the user.
+Assetic结合了两大思路: :ref:`assets<cookbook-assetic-assets>` 和
+:ref:`filters<cookbook-assetic-filters>`. assets 是指文件如CSS,
+JavaScript 和图像文件. filters 是指可以应用于这些文件的操作在它们提供给浏览器之前.
+这样就能够分离开存储于应用中的资源文件和真实展现给用户的文件.
 
-Without Assetic, you just serve the files that are stored in the application
-directly:
+没有Assetic,你就只能将文件直接存储在应用中:
 
 .. configuration-block::
 
