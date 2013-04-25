@@ -22,6 +22,7 @@ JavaScript 和图像文件. filters 是指可以应用于这些文件的操作�
         <script src="<?php echo $view['assets']->getUrl('js/script.js') ?>" type="text/javascript" />
 然而 ** Assetic,你可以任意操作这些资源（或者从任意地方加载它们）在被访问以前。
 这意味着你可以:
+
 * 压缩和合并你所有的CSS和JS文件
 
 * 运行你所有（或者部分）的 CSS 和 JS 文件通过一些压缩工具,
