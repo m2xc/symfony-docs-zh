@@ -20,16 +20,14 @@ JavaScript 和图像文件. filters 是指可以应用于这些文件的操作�
     .. code-block:: php
 
         <script src="<?php echo $view['assets']->getUrl('js/script.js') ?>" type="text/javascript" />
+然而 ** Assetic,你可以任意操作这些资源（或者从任意地方加载它们）在被访问以前。
+这意味着你可以:
+* 压缩和合并你所有的CSS和JS文件
 
-But *with* Assetic, you can manipulate these assets however you want (or
-load them from anywhere) before serving them. This means you can:
+* 运行你所有（或者部分）的 CSS 和 JS 文件通过一些压缩工具,
+  如 LESS , SASS 或者 CoffeeScript
 
-* Minify and combine all of your CSS and JS files
-
-* Run all (or just some) of your CSS or JS files through some sort of compiler,
-  such as LESS, SASS or CoffeeScript
-
-* Run image optimizations on your images
+* 为图像进行优化
 
 .. _cookbook-assetic-assets:
 
