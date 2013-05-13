@@ -1,7 +1,7 @@
 .. index::
    single: Assetic; Apply filters
 
-如何申请一个Assetic过滤特定文件扩展名
+如何运用Assetic过滤特定文件
 ===========================================================
 
 Assetic filters can be applied to individual files, groups of files or even,
