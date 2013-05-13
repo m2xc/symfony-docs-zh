@@ -1,7 +1,7 @@
 .. index::
    single: Assetic; Apply filters
 
-如何运用Assetic过滤特定文件
+如何对特定文件运用Assetic过滤器
 ===========================================================
 
 Assetic filters can be applied to individual files, groups of files or even,
